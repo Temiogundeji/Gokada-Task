@@ -15,7 +15,7 @@ function ScreenThreeStack({ navigation }) {
             <NavigationDrawerStructure navigationProps={navigation} />
           ),
           headerStyle: {
-            backgroundColor: '#f4511e',
+            backgroundColor: '#e91e63',
           },
           headerTintColor: '#fff',
           headerTitleStyle: {
@@ -33,7 +33,7 @@ function ScreenThreeStack({ navigation }) {
           name="Todos"
           component={Todos}
           options={{
-            title: 'Todos',
+            title: 'About',
           }}
         />
       </Stack.Navigator>

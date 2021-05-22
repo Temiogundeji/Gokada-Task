@@ -15,7 +15,7 @@ function ScreenTwoStack({ navigation }) {
             <NavigationDrawerStructure navigationProps={navigation} />
           ),
           headerStyle: {
-            backgroundColor: '#f4511e',
+            backgroundColor: '#e91e63',
           },
           headerTintColor: '#fff',
           headerTitleStyle: {

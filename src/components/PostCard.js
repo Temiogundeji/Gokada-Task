@@ -7,7 +7,7 @@ const PostCard = ({ title, body, urlToImage, author, publishedAt }) => (
     <Card.Content>
         <View style={{marginBottom: 15}}>
             <Headline style={Styles.titleStyle}>{title}</Headline>
-            <Headline style={Styles.authorStyle}>{author}</Headline>
+            <Headline style={Styles.dateStyle}>{author}</Headline>
             <Headline style={Styles.authorStyle}>{publishedAt}</Headline>
         </View>
     </Card.Content>
@@ -29,7 +29,12 @@ const Styles = StyleSheet.create({
     authorStyle: {
         fontSize: 15,
         fontStyle: 'italic'
-    }
+    },
+    dateStyle: {
+      fontSize: 15,
+      fontStyle: 'italic',
+      color: '#e91e63'
+  }
 });
 
 export default PostCard;

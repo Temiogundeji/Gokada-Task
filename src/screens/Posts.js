@@ -18,18 +18,18 @@ const Posts = ({ navigation }) => {
         dispatch(getAllPosts());
     }, []);
 
-    function truncateContent(str, num) {
-        let strLength = str.length;
-        let slicedStr = "";
-        if(strLength > num){
-          slicedStr = str.substring(0, num);
-          slicedStr = slicedStr+'...';
-        }
-        else{
-          slicedStr = str;
-        }
-        return slicedStr;
-      }
+    // function truncateContent(str, num) {
+    //     let strLength = str.length;
+    //     let slicedStr = "";
+    //     if(strLength > num){
+    //       slicedStr = str.substring(0, num);
+    //       slicedStr = slicedStr+'...';
+    //     }
+    //     else{
+    //       slicedStr = str;
+    //     }
+    //     return slicedStr;
+    //   }
 
     useEffect(() => {
         console.log(posts);
