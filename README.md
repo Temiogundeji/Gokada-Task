@@ -19,10 +19,16 @@ Then, Navigate to the root directory of the app
 cd Gokada-Task
 ``
 
-Install all dependencies
+Install all dependencies:
 
 ``
 npm install
+``
+
+Then start the app with:
+
+``
+expo start
 ``
 
 > Whoaa You're good to go
