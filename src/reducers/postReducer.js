@@ -1,7 +1,7 @@
 import { postConstants } from "../constants/post";
 
 const initialState = {
-    fasts: [],
+    posts: [],
     isLoading:true,
     error: null
 };

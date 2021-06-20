@@ -7,7 +7,6 @@ export const getAllPosts = () => {
         return fetch(postAPI.posts)
             .then((response) => response.json())
                 .then((data) => {
-                    // console.log(data)
                     let { status, articles } = data;
                     articles = articles.splice(0, 10);
                     if(status === 'ok'){
